@@ -12,7 +12,7 @@
     "vue": "^3.4.29"
   },
   "devDependencies": {
-    "@mate-academy/scripts": "^1.9.3",
+    "@mate-academy/scripts": "^1.9.4",
     "@mate-academy/stylelint-config": "*",
     "@rushstack/eslint-patch": "^1.8.0",
     "@vitejs/plugin-vue": "^5.0.5",
@@ -39,7 +39,7 @@
     "start": "mate-scripts start -l",
     "build": "mate-scripts build",
     "test": "mate-scripts test -l",
-    "style-format": "npx stylelint 'src/**/*.scss' --fix --allow-empty-input",
+    "style-format": "stylelint 'src/**/*.scss' --fix --allow-empty-input",
     "lint-js": "mate-scripts lint -j",
     "lint-css": "mate-scripts lint -s",
     "format": "prettier --write './src/**/*.{js,vue}'",
